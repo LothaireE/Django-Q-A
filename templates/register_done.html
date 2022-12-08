@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+
+{% block title %} Register Done {% endblock %}
+
+{% block style %}
+
+<style>
+    .register-style {
+        width: 500px;
+        height: auto;
+    }
+</style>
+{% endblock %}
+
+
+
+
+{% block body %}
+
+<div class="container mt-4 register-style">
+<p>Your account has been created, you can <a href="{% url 'login' %}">log in here</a></p>
+</div>
+
+
+
+{% endblock %}
