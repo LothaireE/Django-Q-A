@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-#he#^tf-o@02t$vceg=ana2+qp$w$#n8f7tn6%d__2t1d7f1dx
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'lothaire.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','localhost', 'lothaire.pythonanywhere.com']
 
 
 # Application definition
